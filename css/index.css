@@ -36,9 +36,9 @@ body {
 .marker {
     filter: contrast(50%);
     position: absolute;
-    top: 25%;
-    left: 65%;
-    width: 2vw;
+    top: 30%;
+    left: 60%;
+    width: 3vw;
     height: 5vh;
 }
 
