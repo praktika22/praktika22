@@ -12,21 +12,65 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
-    background-color: var(--blue);
+    background-color: #fff;
     height: 100vh;
 }
 
+.container {
+    margin: 5% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #map {
-    width: 100%;
-    height: 90vh;
+    width: 80vw!important;
+    height: 80vh!important;
 }
 
 .marker {
     filter: contrast(50%);
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 65%;
-    width: 50px;
-    height: 50px;
+    width: 2vw;
+    height: 5vh;
+}
+
+@media only screen and (max-width: 1280px) {
+    #map {
+        width: 80vw!important;
+        height: 80vh!important;
+    }
+    .marker {
+        width: 5vw!important;
+        height: 10vh!important;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #map {
+        width: 80vw!important;
+        height: 80vh!important;
+    }
+    .marker {
+        width: 10vw!important;
+        height: 10vh!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #map {
+        width: 80vw!important;
+        height: 80vh!important;
+    }
+    .marker {
+        width: 10vw!important;
+        height: 10vh!important;
+    }
 }
