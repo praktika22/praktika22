@@ -1,9 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/a44207bfe4040f536c824dbbf82f5ed1?family=e-Ukraine);
 :root {
     --dark-blue: #2F4858;
     --blue: #33658A;
     --light-blue: #86BBD8;
     --yellow: #F6AE2D;
-    --orange: #F26419;
+    --orange: #F26419; 
+    --white: #fff;
+    --black: #000;
 }
 
 * {
@@ -12,65 +15,72 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: var(--yellow);
+}
+
 html {
     overflow: hidden;
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--white);
     height: 100vh;
+    font-family: "e-Ukraine";
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    background-color: var(--black);
+    width: 100%;
+    height: 4vh;
+    text-align: center;
 }
 
 .container {
-    margin: 5% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #map {
-    width: 80vw!important;
-    height: 80vh!important;
+    width: 100vw!important;
+    height: 100vh!important;
 }
 
 .marker {
     filter: contrast(50%);
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 60%;
     width: 3vw;
-    height: 5vh;
+    height: 6vh;
+    transition: .5s;
+}
+
+.marker:hover {
+    filter: contrast(100%);
 }
 
 @media only screen and (max-width: 1280px) {
-    #map {
-        width: 80vw!important;
-        height: 80vh!important;
-    }
     .marker {
-        width: 5vw!important;
-        height: 10vh!important;
+        width: 4vw!important;
+        height: 5vh!important;
     }
 }
 
 @media only screen and (max-width: 1050px) {
-    #map {
-        width: 80vw!important;
-        height: 80vh!important;
-    }
     .marker {
-        width: 10vw!important;
-        height: 10vh!important;
+        width: 5vw!important;
+        height: 5vh!important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    #map {
-        width: 80vw!important;
-        height: 80vh!important;
-    }
     .marker {
-        width: 10vw!important;
-        height: 10vh!important;
+        width: 8vw!important;
+        height: 5vh!important;
     }
 }
