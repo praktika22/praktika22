@@ -15,13 +15,14 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 ::selection {
     background-color: var(--yellow);
 }
 
-html {
-    overflow: hidden;
-}
 
 body {
     background-color: var(--white);
@@ -30,23 +31,33 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0%;
-    left: 0%;
-    background-color: var(--black);
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdm0qx8t0i9gc9.cloudfront.net%2Fthumbnails%2Fvideo%2FGTYSdDW%2Fvideoblocks-beautiful-autumn-mountain-panorama-clouds-floating-in-blue-sunny-sky-exploring-beauty-world-carpathians-ukraine-europe-travel-hiking-holidays-recreation-nature-landscape-slow-motion-4k_haicuvhycz_thumbnail-1080_01.png&f=1&nofb=1');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100%;
     width: 100%;
-    height: 4vh;
-    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 200vh;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    height: auto;
+    transform: translateY(-50vh);
 }
 
 #map {
-    width: 100vw!important;
+    width: 80vw!important;
     height: 100vh!important;
 }
 
