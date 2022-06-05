@@ -1,4 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/a44207bfe4040f536c824dbbf82f5ed1?family=e-Ukraine);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:wght@300;400;700&family=PT+Mono&family=Rubik:wght@300;400;700&display=swap');
+
 :root {
     --dark-blue: #2F4858;
     --blue: #33658A;
@@ -19,26 +20,36 @@ html {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 ::selection {
     background-color: var(--yellow);
 }
 
+h2 {
+    text-align: center;
+}
 
 body {
     background-color: var(--white);
     height: 100vh;
-    font-family: "e-Ukraine";
+    font-family: 'Rubik', sans-serif;
 }
 
-header {
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdm0qx8t0i9gc9.cloudfront.net%2Fthumbnails%2Fvideo%2FGTYSdDW%2Fvideoblocks-beautiful-autumn-mountain-panorama-clouds-floating-in-blue-sunny-sky-exploring-beauty-world-carpathians-ukraine-europe-travel-hiking-holidays-recreation-nature-landscape-slow-motion-4k_haicuvhycz_thumbnail-1080_01.png&f=1&nofb=1');
+#header-photo {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    background-image: url('https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/ukraine-6.jpg');
+    background-size: 100% cover;
     background-position: center center;
-    background-size: 100% 100%;
     background-attachment: fixed;
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    animation-name: change-background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 main {
@@ -46,52 +57,28 @@ main {
     height: 200vh;
 }
 
-.container {
+#header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #fff;
     margin: 0 auto;
     height: auto;
-    transform: translateY(-50vh);
+    transform: translateY(-55vh);
 }
 
-#map {
-    width: 80vw!important;
-    height: 100vh!important;
+.arrow-down {
+    animation-name: arrow-down;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
 }
 
-.marker {
-    filter: contrast(50%);
-    position: absolute;
-    top: 35%;
-    left: 60%;
-    width: 3vw;
-    height: 6vh;
-    transition: .5s;
-}
-
-.marker:hover {
-    filter: contrast(100%);
-}
-
-@media only screen and (max-width: 1280px) {
-    .marker {
-        width: 4vw!important;
-        height: 5vh!important;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .marker {
-        width: 5vw!important;
-        height: 5vh!important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .marker {
-        width: 8vw!important;
-        height: 5vh!important;
+@keyframes arrow-down {
+    from {
+        top: 0%;
+    } to {
+        top: 25%;
     }
 }

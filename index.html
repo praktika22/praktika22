@@ -9,70 +9,19 @@
 </head>
 <body>
   <header>
+    <div id="header-photo"></div>
+    <div id="header">
+      <h1 style="font-family: 'Lobster', cursive;">Welcome to Ukraine!</h1>
+      <h2>Подорожуй разом з нами чудесами України</h2>
+      <i style="margin-top: 5%; font-size: 5em;" class="fa-solid fa-arrow-down arrow-down"></i>
+    </div>  
   </header>
-  <div class="container"><h1>Welcome to Ukraine!</h1></div>
-  <img src="./img/svg/banner.svg">
   <main>
-    <iframe src="./pages/map.html" style="width: 100vw; height: 100vh; overflow: hidden;" frameborder="0"></iframe>  
+    <h2>Обирайте область</h2>
+    <iframe src="./pages/map.html" style="width: 100vw; height: 100vh; overflow: scroll;" scrolling="no" frameborder="0"></iframe>  
   </main>
   <footer>
   </footer>
-  <script src="./js/index.js"></script>
-  <script>
-    startImageTransition();
- 
-    function startImageTransition() {
-        var images = document.getElementsByClassName("test");
-
-        for (var i = 0; i < images.length; ++i) {
-            images[i].style.opacity = 1;
-        }
-
-        var top = 1;
-
-        var cur = images.length - 1;
-
-        setInterval(changeImage, 3000);
-
-        async function changeImage() {
-
-            var nextImage = (1 + cur) % images.length;
-
-            images[cur].style.zIndex = top + 1;
-            images[nextImage].style.zIndex = top;
-
-            await transition();
-
-            images[cur].style.zIndex = top;
-
-            images[nextImage].style.zIndex = top + 1;
-
-            top = top + 1;
-
-            images[cur].style.opacity = 1;
-            
-            cur = nextImage;
-
-        }
-
-        function transition() {
-            return new Promise(function(resolve, reject) {
-                var del = 0.01;
-
-                var id = setInterval(changeOpacity, 10);
-
-                function changeOpacity() {
-                    images[cur].style.opacity -= del;
-                    if (images[cur].style.opacity <= 0) {
-                        clearInterval(id);
-                        resolve();
-                    }
-                }
-
-            })
-        }
-    }
-
-  </script>
-</body>
+  <script src="https://kit.fontawesome.com/8995d5a2c0.js" crossorigin="anonymous"></script>
+  </body>
 </html>
