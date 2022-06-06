@@ -50,6 +50,60 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
+.about_ukraine_block{
+    display: flex;
+    flex-direction: row;
+    transform: translateY(-80vh);
+}
+.text_ukraine_block{
+    width: 110%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000000;
+    padding-left: 80px;
+    padding-top: 200px;
+}
+.sp_1{
+    text-decoration-line: underline;
+}
+.sp_2{
+    text-transform: uppercase;
+}
+.sp_3{
+    font-style: italic;
+}
+.sp_4{
+    text-decoration-line: underline;
+}
+.sp_5{
+    text-decoration-line: underline;
+}
+.sp_6{
+    font-weight: 700;
+}
+.button_go_ua{
+    padding-left: 80px;
+    padding-top: 200px;
+}
+.button_go{
+    padding: 30px 70px;
+    background: #FAD00C;
+    border-radius: 45px;
+    border: none;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+.img_for_button{
+}
+.main_img{
+    float: right;
+}
 .choise_obl{
     font-family: 'Montserrat';
     font-style: normal;
