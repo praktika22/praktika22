@@ -53,7 +53,7 @@ body {
 .about_ukraine_block{
     display: flex;
     flex-direction: row;
-    transform: translateY(-80vh);
+    transform: translateY(-20vh);
 }
 .text_ukraine_block{
     width: 110%;
