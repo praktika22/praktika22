@@ -8,7 +8,10 @@
   <title>7 чудес України</title>
 </head>
 <body>
-  <header>
+  <div id="to_top">
+    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+  </div>
+  <header id="top">
     <div id="header-photo"></div>
     <div id="header">
       <h1 style="font-family: 'Lobster', cursive;">Welcome to Ukraine!</h1>
@@ -40,11 +43,26 @@
     i {
       margin-left: 1%;
       font-size: 2em;
+      transition: .5s;
     }
 
     i:hover {
       color: #fff;;
     }
-  </style>  
+  </style>
+  <script>
+    let top_button = document.getElementById('to_top')
+    top_button.style.display = 'none'
+
+    window.onscroll = function() {scrollFunction()}
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        top_button.style.display = "flex"
+      } else {
+        top_button.style.display = "none"
+      }
+    }
+  </script>
 </body>
 </html>
