@@ -232,10 +232,6 @@ footer{
     color: var(--white);
 
 }
-.fa-brands fa-instagram-square:hover{
-    background-color: var(--black);
-}
-
 @media only screen and (max-width: 1630px) {
     .button_go_fond {
         font-size: 1em;
