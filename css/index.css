@@ -33,14 +33,14 @@ a {text-decoration: none; color: #fff}
     background-color: var(--light-blue);
 }
 
-h2 {
+/* h2 {
     text-align: center;
-}
+} */
 
 body {
     background-color: var(--white);
     height: 100vh;
-    font-family: 'Rubik', sans-serif;
+/*     font-family: 'Rubik', sans-serif; */
 }
 .about_main_text{
     font-family: 'IBM Plex Sans';
