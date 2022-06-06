@@ -41,8 +41,9 @@ body {
 #header-photo {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
-    background-image: url('https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/ukraine-6.jpg');
+    background-image: url('https://qubit-labs.com/wp-content/uploads/2022/05/why-it-is-important-to-hire-remote-team-in-Ukraine-during-the-war.webp');
     background-size: 100% cover;
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     height: 100vh;
@@ -50,11 +51,6 @@ body {
     animation-name: change-background;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-}
-
-main {
-    width: 100%;
-    height: 200vh;
 }
 
 #header {
@@ -81,4 +77,15 @@ main {
     } to {
         top: 25%;
     }
+}
+
+main {
+    width: 100%;
+    height: 200vh;
+}
+
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: #F9D00D;
 }
