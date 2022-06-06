@@ -19,6 +19,7 @@
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
 }
 
 a {text-decoration: none; color: #fff}
@@ -60,8 +61,8 @@ body {
     flex-direction: column;
     color: #fff;
     margin: 0 auto;
-    height: auto;
-    transform: translateY(-55vh);
+    height: 50vh;
+    transform: translateY(-60vh);
 }
 
 .arrow-down {
@@ -81,7 +82,7 @@ body {
 
 main {
     width: 100%;
-    height: 200vh;
+    height: 105vh;
 }
 
 footer {
@@ -90,21 +91,113 @@ footer {
     background-color: var(--yellow);
 }
 
+#image_stopwar {
+    transform:translateY(-70vh);
+}
+
 #to_top {
     z-index: 999;
     position: fixed;
     top: 90%;
     left: 95%;
-    width: 3vw;
-    height: 6vh;
+    width: 4vw;
+    height: 8vh;
+    font-size: 1em;
     background-color: var(--light-blue);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .5s;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
 }
 
 #to_top:hover {
     background-color: var(--blue);
+}
+
+
+.help_ua {
+    display: flex;
+    flex-direction: column;
+    background-image: url('design.png');
+    background-size: 100%;
+    background-position: center center;
+    background-color: var(--yellow);
+}
+
+.final {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    background-color: var(--yellow);
+    margin-top: 5vh;
+}
+
+.button_go_fond {
+    margin-top: 1%;
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 45px;
+    border: none;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #000000;
+    transition: .5s;
+}
+
+.button_go_fond:hover {
+    background-color: var(--black);
+    color: var(--white);
+
+}
+
+@media only screen and (max-width: 1630px) {
+    .button_go_fond {
+        font-size: 1em;
+    }
+    #to_top {
+        left: 93%;
+        width: 5vw;
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .button_go_fond {
+        font-size: 0.8em;
+    }
+    #to_top {
+        left: 90%;
+        width: 7vw;
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .button_go_fond {
+        font-size: 0.6em;
+    }
+    #to_top {
+        width: 8vw;
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .button_go_fond {
+        font-size: 0.5em;
+    }
+    #to_top {
+        left: 90%;
+        width: 8vw;
+        height: 8vh;
+    }
 }

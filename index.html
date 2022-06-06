@@ -11,13 +11,14 @@
   <div id="to_top">
     <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
   </div>
-  <header id="top">
+  <header id="top" style="height: 150vh;">
     <div id="header-photo"></div>
     <div id="header">
-      <h1 style="font-family: 'Lobster', cursive;">Welcome to Ukraine!</h1>
-      <h2 style="font-weight: 400; margin-top: 1%;">Подорожуй разом з нами чудесами України</h2>
-      <i style="margin-top: 5%; font-size: 5em;" class="fa-solid fa-arrow-down arrow-down"></i>
+      <h1 style ="font-family: 'Lobster', cursive; padding-bottom: 25px; font-size: 5em; text-align: center;">Welcome to Ukraine!</h1>
+      <h2 class="about_main_text">Подорожуй разом з нами<br>чудесами України</h2>
+      <i style="margin-top: 5%; font-size: 5em;" class="fa-solid fa-arrow-down"></i>
     </div>
+    <img id="image_stopwar" src="stopwar.png">
   </header>
   <main>
     <h2>Обирайте область</h2>
@@ -25,24 +26,29 @@
   </main>
   <footer>
     <div style="display: flex; justify-content: space-around; flex-direction: row; padding-top: 1%;">
-      <div id="social">
-        <h3 style="font-weight: 400;">Слідкуй за нами</h3>
+      <div>
+        <h3 style="font-weight: 400; padding-bottom: 5%; font-size: 1.5em;">Слідкуй за нами</h3>
         <i class="fa-brands fa-instagram-square"></i>
         <i class="fa-brands fa-youtube-square"></i>
       </div>
-      <div id="ad">
-        <h3 style="font-weight: 400;">World</h3>
+      <div style="display: flex; justify-content: center; flex-direction: column;">
+        <h3 style="padding-bottom: 5%; font-weight: 400; font-size: 1.5em;">Благодійність</h3>
+        <div class="help_ua">
+          <a href="https://savelife.in.ua/"target="_blank"><input class="button_go_fond" type="button" value='Фонд "Повернись живим"' ></a>
+          <a href="https://prytulafoundation.org/" target="_blank"><input class="button_go_fond" type="button" value='Фонд Сергія Притули'></a>
+          <a href="https://mashafund.org.ua/" target="_blank"><input class="button_go_fond" type="button" value='Фонд "МАША"'></a>
+        </div>
       </div>
-      <div id="standwithukraine">
-        <h3 style="font-weight: 400;">!</h3>
-      </div>
+    </div>
+    <div class="final">
+      <p>(С) Made and maintain by L10-C</p>
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/8995d5a2c0.js" crossorigin="anonymous"></script>
   <style>
     i {
       margin-left: 1%;
-      font-size: 2em;
+      font-size: 4em;
       transition: .5s;
     }
 

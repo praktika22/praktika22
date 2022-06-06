@@ -18,7 +18,7 @@
         <a title="Сумська область" target="./sumobl.html" href="./sumobl.html"><img style="top: 20%; left: 60%;"  alt="Marker" class="marker"></a>
         <a title="Чернігівська область" target="./crngobl.html" href="./crngobl.html"><img style="top: 15%; left: 50%;"  alt="Marker" class="marker"></a>
         <a title="Київська область" target="./kvobl.html" href="./kvobl.html"><img style="top: 30%; left: 45%;"  alt="Marker" class="marker"></a>
-        <a title="Київ" target="./kyiv.html" href="./kyiv.html"><img style="top: 22%; left: 46%;"  alt="Marker" class="marker"></a>
+        <a title="Київ" target="./kyiv.html" href="./kyiv.html"><img style="top: 23%; left: 47%;"  alt="Marker" class="marker"></a>
         <a title="Черкаська область" target="#" href="#"><img style="top: 40%; left: 50%;"  alt="Marker" class="marker"></a>
         <a title="Хмельницька область" target="./hmelobl.html" href="./hmelobl.html"><img style="top: 35%; left: 30%;"  alt="Marker" class="marker"></a>
         <a title="Чернівецька область" target="./chrnobl.html" href="./chrnobl.html"><img style="top: 50%; left: 25%;"  alt="Marker" class="marker"></a>
@@ -55,7 +55,7 @@
             position: absolute;
             top: 35%;
             left: 60%;
-            width: 3vw;
+            width: 2vw;
             height: 6vh;
             transition: .5s;
         }
@@ -87,10 +87,9 @@
     </style> 
     <script>
         let markers = document.getElementsByClassName('marker')
-        const link = 'https://www.pngall.com/wp-content/uploads/2017/05/Map-Marker-Free-Download-PNG.png'
 
         for (let i = 0; i < markers.length; i++) {
-            markers[i].src = link
+            markers[i].src = '../marker.png'
         }
     </script>
 </body>
