@@ -195,9 +195,10 @@ footer {
 
 .final {
     padding-left: 360px;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     background-color: #F9D00D;
 }
