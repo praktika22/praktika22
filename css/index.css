@@ -194,11 +194,12 @@ footer {
 }
 
 .final {
+    padding-left: 360px;
     font-style: normal;
     font-weight: 500;
     font-size: 1em;
     color: rgb(0, 0, 0);
-    background-color: var(--yellow);
+    background-color: #F9D00D;
 }
 footer{
     margin-top:50px;
