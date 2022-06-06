@@ -25,7 +25,7 @@ html {
 }
 
 ::selection {
-    background-color: var(--yellow);
+    background-color: var(--light-blue);
 }
 
 h2 {
@@ -39,8 +39,8 @@ body {
 }
 
 #header-photo {
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%);
+    filter: brightness(70%) saturate(100%);
+    -webkit-filter: brightness(70%) saturate(100%);
     background-image: url('https://qubit-labs.com/wp-content/uploads/2022/05/why-it-is-important-to-hire-remote-team-in-Ukraine-during-the-war.webp');
     background-size: 100% cover;
     background-repeat: no-repeat;
@@ -48,9 +48,6 @@ body {
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
-    animation-name: change-background;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 
 #header {
@@ -87,5 +84,5 @@ main {
 footer {
     width: 100%;
     height: 25vh;
-    background-color: #F9D00D;
+    background-color: var(--yellow);
 }
