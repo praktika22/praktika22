@@ -50,7 +50,13 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-
+.choise_obl{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    text-align:center;
+}
 #header-photo {
     filter: brightness(70%) saturate(100%);
     -webkit-filter: brightness(70%) saturate(100%);
