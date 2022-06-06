@@ -20,7 +20,7 @@
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: 'Rubik', sans-serif;
+/*     font-family: 'Rubik', sans-serif; */
 }
 
 a {text-decoration: none; color: #fff}
