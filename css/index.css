@@ -232,6 +232,9 @@ footer{
     color: var(--white);
 
 }
+.social_media:hover{
+    background-color: var(--black);
+}
 
 @media only screen and (max-width: 1630px) {
     .button_go_fond {
