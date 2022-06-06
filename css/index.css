@@ -194,7 +194,7 @@ footer {
     background-image: url('design.png');
     background-size: 100%;
     background-position: center center;
-    background-color: var(--yellow);
+    background-color: #F9D00D;
 }
 
 .final {
@@ -209,7 +209,7 @@ footer {
 .button_go_fond {
     margin-top: 10px;
     width: 15vw;
-    height: 4vh;
+    height: 5vh;
     text-align: center;
     background: #ffffff;
     border-radius: 45px;
