@@ -92,7 +92,7 @@ body {
 
 .button_go {
     padding: 30px 70px;
-    background: var(--yellow);
+    background: #F9D00D;;
     border-radius: 45px;
     border: none;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
