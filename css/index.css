@@ -144,19 +144,17 @@ body {
     transform: translateY(-70vh);
 }
 
-.arrow-down {
-    animation-name: arrow-down;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+#arrow-down {
+    animation: down 4s infinite;
     position: relative;
 }
 
-@keyframes arrow-down {
+@keyframes down {
     from {
         top: 0%;
     } to {
         top: 25%;
-    }
+    } 
 }
 
 main {
@@ -171,7 +169,7 @@ footer {
 }
 
 #image_stopwar {
-    transform:translateY(-70vh);
+    transform: translateY(-70vh);
 }
 
 #to_top {
