@@ -5,7 +5,7 @@
     --dark-blue: #2F4858;
     --blue: #33658A;
     --light-blue: #86BBD8;
-    --yellow: #F6AE2D;
+    --yellow: #F9D00D;
     --orange: #F26419; 
     --white: #fff;
     --black: #000;
@@ -72,6 +72,7 @@ body {
 
 .sp {
     text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 .sp_2 {
@@ -93,7 +94,7 @@ body {
 
 .button_go {
     padding: 30px 70px;
-    background: var(--yellow);
+    background: #F9D00D;;
     border-radius: 45px;
     border: none;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
@@ -105,7 +106,7 @@ body {
 }
 
 .button_go:hover {
-    color: var(--yellow);
+    color: #F9D00D;;
     background-color: var(--blue);
 }
 
