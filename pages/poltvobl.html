@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SA</title>
     <style>
 
+    h3{
+        font-weight: normal;
+    }
+
+    .size:hover{
+        width: 800px;
+        height: 600px;
+    }  
+    
+    p::first-letter{
+     font-size: 150%;
+     color: #B22222;
+ } 
+
+ 
  .image{
     float:left; 
     margin: 10px; 
-    border-radius: 20%;
+    border-radius: 20px;
     border: 3px solid grey;
     box-shadow: 2px 2px 2px 2px white;
    }
@@ -28,23 +47,53 @@
    h1{
        color: #B22222;
        text-shadow: 1px 1px 3px white;
+       font-family: 'Comfortaa', cursive;
+
    
     }
 
     h2{
        color: #B22222;
        text-shadow: 1px 1px 3px white;
+       font-family: 'Comfortaa', cursive;
     }
 
     dl{
         color: #B22222;
         font-size: 110%;
     }
+
+    a:active, a:link, a:visited{
+        color: black;
+        text-decoration: none;    
+    }
+
+    .dzerelo{
+        color: black;
+    }
+
+    .up:active, .up:link, a:visited{
+        color: white;
+    }
+
+    .emblema{
+        width: 200px;
+        height: 100px;
+    
+    }
+
+    .c:before{
+        content: "\00A9";
+    }
+    
+
+    
+
         </style>
 </head>
 
 <body>
-        <a href = "../index.html"><img src = "img/7miracles.png"></a>
+        <a href = "../index.html"><img src = "img/7miracles.png"  class = "emblema"></a>
 
         <center><h1 id="Nag">Проєкт "7 чудес України"</h1></center>
 
@@ -68,7 +117,7 @@
         <hr>
             <center><h2 id = "Dub">Кочубеївські дуби</h2></center>
             
-        <img class = "image" src="img/Кочубеївські_дуби.jpg" width="200" height="150">
+        <img class = "image size" src="img/Кочубеївські_дуби.jpg" width="200" height="150">
 
 <h3 align = "justify">
 
@@ -101,14 +150,14 @@
 
 </h3>
 
-<h3>Джерело:<a href ='https://7chudes.in.ua/nominaciyi/kochubeivski-duby/'> 7 природних чудес</h3>
+<h3 class = "dzerelo">Джерело:<a href ='https://7chudes.in.ua/nominaciyi/kochubeivski-duby/'> 7 природних чудес</h3>
 
-<h3 align = "right"><a href = "#Nag">Нагору</a></h3>
+<h3 align = "right"><a href = "#Nag" class = "up">Нагору</a></h3>
 
 <hr>      
         <center><h2 id = "Duk">Диканька</h2></center>
 
-        <img class ='image' src="img/dikanka.jpg" width="200" height="150">
+        <img class ='image size' src="img/dikanka.jpg" width="200" height="150">
         <h3> 
 
             <p>Диканька – селище міського типу, районний центр, розташований на правобережжі річки Ворскли за 30 км на північ від Полтави.</p>
@@ -143,12 +192,12 @@
         
         </h3>
 
-        <h3>Джерело:<a href = "https://7chudes.in.ua/nominaciyi/dykanka-poltavska-obl/"> 7 історичних міст та містечок</a></h3>
+        <h3 class = "dzerelo">Джерело:<a href = "https://7chudes.in.ua/nominaciyi/dykanka-poltavska-obl/"> 7 історичних міст та містечок</a></h3>
 
-        <h3 align = "right"><a href = "#Nag">Нагору</a></h3>
+        <h3 align = "right"><a href = "#Nag" class = "up">Нагору</a></h3>
 
         <hr>
 
-        <h2>Cухляк Анна</h2>
+        <h2 class = "c">Анна Сухляк</h2>
 </body>
 </html>

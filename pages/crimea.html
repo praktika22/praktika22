@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>АР Крим</title>
-    <link href="practika.css" rel="stylesheet" type="css/text">
-    <link rel="shortcut icon" href="img/brow_ico.png" type="image/x-icon">
-       
-</head>
-<style type="text/css">
+    <link rel="shortcut icon" href="img/brows_icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+     <style type="text/css">
+    
     *{
         margin: 0;
         padding: 0;
@@ -22,16 +23,18 @@
     }
    a { 
     text-decoration: none;
+    
    }
    .a2 { 
      color: rgb(249, 249, 249);
-     text-shadow: 0 0 10px gray,0 0 20px gray,0 0 30px gray,0 0 40px gray;
      margin-left: 20px;
      margin-right: 20px;
+     text-shadow: 2px 2px 5px rgb(124, 122, 122)
    }
    h1,h2{
     color: red;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255)
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
 
    }
 
@@ -59,7 +62,8 @@
 
     }
     hr{
-        margin-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     #a1 {
         margin-right: 20px;
@@ -74,7 +78,7 @@
     }
     #b {
         padding: 0;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .img{ 
         filter: alpha(Opacity=95);
@@ -83,9 +87,11 @@
         border-radius:20px;outline:none;
         border-color: #868686;
         box-shadow:0 0 10px #ffffff;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin: 20px;
+        float:left;
+        width: 200px;
+        height: 150px;
+
     }
     #podpis{
         margin-top: 70px;
@@ -95,13 +101,19 @@
     #l1{
         margin-left: 20px;
     }
+    .img:hover{
+        width: 800px;
+        height: 525px;
+    }
    
-</style>
+</style>  
+</head>
+
 <body>
-<div class="block_1">
+
     <div class="bg"></div>
     <div>
-        <a href="index.html."><img align="left" id="l1" src="img/7miracles.png" width="150px" height="75px" ></a><center><h1>Проєкт "7 чудес України"</h1></center>
+        <a href="../index.html."><img align="left" id="l1" src="img/7miracles.png" width="150px" height="75px" ></a><center><h1 id="k1">Проєкт "7 чудес України"</h1></center>
         <center><h2> АР Крим</h2></center>
         <center><img  id="a1" src="img/CrimeaG.png"><img src="img/flagAR.png"></center>
     </div>
@@ -109,21 +121,21 @@
         <ul>
             <li class="t2">7 природних чудес</li>
                 <ul id="b">
-                    <li id="k1"><a href="#k11">Балаклавська бухта з мисами Айя та Фіолент</a></li>
-                    <li id="k2"><a href="#k12">Карадазький природний заповідник</a></li>
-                    <li id="k3"><a href="#k13">Мармурова печера</a></li>
+                    <li><a href="#k11">Балаклавська бухта з мисами Айя та Фіолент</a></li>
+                    <li><a href="#k12">Карадазький природний заповідник</a></li>
+                    <li><a href="#k13">Мармурова печера</a></li>
                 </ul>
             <li class="t2">7 чудес України</li>
             <ul id="b">
-                <li id="k4"><a href="#k14">Лівадійський палац-музей</a></li>
-                <li id="k5"><a href="#k15">Херсонес Таврійський</a></li>
+                <li><a href="#k14">Лівадійський палац-музей</a></li>
+                <li><a href="#k15">Херсонес Таврійський</a></li>
                 
             </ul>
             <li class="t2">7 замків, фортець, палаців</li>
                 <ul id="b">
-                    <li id="k6"><a href="#k16">Алупкінський (Воронцовський) палац</a></li>
-                    <li id="k7"><a href="#k17">Бахчисарайський (Ханський) палац</a></li>
-                    <li id="k8"><a href="#k18">Генуезька фортеця</a></li>
+                    <li><a href="#k16">Алупкінський (Воронцовський) палац</a></li>
+                    <li><a href="#k17">Бахчисарайський (Ханський) палац</a></li>
+                    <li><a href="#k18">Генуезька фортеця</a></li>
                     <li ><a href="#k14">Лівадійський палац-музей</a></li>
                 </ul>
             
@@ -132,10 +144,10 @@
     <hr>
     <div>
         
-            <center><h1>Балаклавська бухта з мисами Айя та Фіолент</h1></center></b>
+            <center><h2>Балаклавська бухта з мисами Айя та Фіолент</h2></center></b>
         
         <table align="left">
-            <td><img align="left" class="img" src="img/balaklavskab.jpg" width="200px" height="150px"></td>
+            <td><img class="img" src="img/balaklavskab.jpg"></td>
         </table>
         
         
@@ -165,8 +177,8 @@
     <hr>
     <div>
         
-        <center><h1>Карадазький природний заповідник</h1></center>
-        <img align="left" class="img" src="img/Karadag1.jpg" width="200px" height="150px">
+        <center><h2>Карадазький природний заповідник</h2></center>
+        <img  class="img" src="img/Karadag1.jpg">
         <p>Заповідник Карадаг (в перекладі з тюркського – „Чорна гора”) – це гірський масив в Кримських горах, стародавній згаслий вулкан, який діяв 120—160 млн. років тому.<br>
             Розташований в Криму у Судацькому районі між Коктебелем та селищем Курортним. З 1979 року — державний заповідник. Займає площу 22 кв. км від Коктебеля до селищ Щебетовка та Курортне.</p>
 <p>Найвища вершина — гора Свята, 576 м над рівнем моря (за радянських часів називалася просто Карадаг). 
@@ -196,13 +208,13 @@
 Карадаг надзвичайно мальовничий, оспіваний поетами і художниками, овіяний легендами. Вулканічний масив Карадагу – унікальний пам’ятник вулканізму середньоюрського часу на території України.</p>
 <br>
 <br>
-<b align="left" id="k12" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/karadazkyj-pryrodnyj-zapovidnyk/" target="_blank">7 Чудес України. Карадазький природний заповідник </a></b> <h4 align="right"><a href="#k2" class="a2">Нагору</a></h4>
+<b align="left" id="k12" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/karadazkyj-pryrodnyj-zapovidnyk/" target="_blank">7 Чудес України. Карадазький природний заповідник </a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4>
     </div>
     <hr>
     <div>
         
-        <center><h1>Мармурова печера</h1></center>
-        <img align="left" class="img" src="img/pecheramarm1.jpg" width="200px" height="150px">
+        <center><h2>Мармурова печера</h2></center>
+        <img class="img" src="img/pecheramarm1.jpg">
     <p> Це унікальна за красою печера зі складною системою залів і галерей, яка входить до п’ятірки найкрасивіших обладнаних печер планети…</p>
 
 <p>Мармурова печера знаходиться на плато гірського масиву Чатир-Даг (тюрк. – „Шатер-гора”). Видимий із різних відстаней, мальовничий силует Чатир-Дагу є символом Криму. 
@@ -240,13 +252,13 @@
      Одну з найбільш відвідуваних печер Європи, Мармурову, у 1992 році було прийнято до Міжнародної асоціації обладнаних печер.</p>
 <br>
 <br>
-<b align="left" id="k13" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/marmurova-pechera/" target="_blank">7 Чудес України. Мармурова печера </a></b> <h4 align="right"><a href="#k3" class="a2">Нагору</a></h4>
+<b align="left" id="k13" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/marmurova-pechera/" target="_blank">7 Чудес України. Мармурова печера </a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4>
     </div>
     <hr>
     <div>
         
-        <center><h1>Лівадійський палац-музей</h1></center>
-        <img align="left" class="img" src="img/Лівадійський палац-музей1(2).jpg" width="200px" height="150px">
+        <center><h2>Лівадійський палац-музей</h2></center>
+        <img class="img" src="img/Лівадійський палац-музей1(2).jpg">
          <p>Лівадія – мальовничий куточок на південному узбережжі Криму, доля якого увібрала в себе поворотні моменти історії…</p>
 
 <p>Свого часу Лівадійський палац був літньою резиденцією останнього російського імператора Миколи II та його родини. У 20-х роках ХХ ст. – першим у світі селянським санаторієм. 
@@ -263,13 +275,13 @@
 <p>Нині Лівадійський палац-музей – визнаний громадсько-культурний центр України з проведення найбільших миротворчих акцій, значних культурних і політичних заходів на високому державному рівні.</p>
 <br>
 <br>
-<b align="left" id="k14" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/livadiyskyy-palats-muzey/" target="_blank">7 Чудес України. Лівадійський палац-музей</a></b> <h4 align="right"><a href="#k4" class="a2">Нагору</a></h4>
+<b align="left" id="k14" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/livadiyskyy-palats-muzey/" target="_blank">7 Чудес України. Лівадійський палац-музей</a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4>
 </div>
     <hr>
     <div>
         
-        <center><h1>Херсонес Таврійський</h1></center>
-<img align="left" class="img" src="img/HTAW (2).jpg" width="200px" height="150px"> 
+        <center><h2>Херсонес Таврійський</h2></center>
+<img class="img" src="img/HTAW (2).jpg" > 
     <p>Історія Херсонеса є частиною історії Давньої Греції, Давнього Риму, Візантії, Київської Русі. Адже саме тут, у Херсонесі, згідно з літописними даними, 
         відбулося велике Таїнство – Хрещення Київського князя Володимира, який потім поширив християнство на всю Київську Русь…</p>
 
@@ -302,13 +314,13 @@
  скориставшись картою, на якій позначені розкопані ділянки міської території. А ті, хто особисто бажає взяти участь у розкопках, можуть зробити це, попередньо домовившись з адміністрацією.</p>
 <br>
 <br>
-<b align="left" id="k15" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/hersones-tavriyskyy/" target="_blank">7 Чудес України. Херсонес Таврійський</a></b> <h4 align="right"><a href="#k5" class="a2">Нагору</a></h4> 
+<b align="left" id="k15" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/hersones-tavriyskyy/" target="_blank">7 Чудес України. Херсонес Таврійський</a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4> 
     </div>
     <hr>
     <div>
         
-        <center><h1>Алупкінський (Воронцовський) палац</h1></center>
-        <img align="left" class="img" src="img/VorPalac (2).jpg" width="200px" height="150px">
+        <center><h2>Алупкінський (Воронцовський) палац</h2></center>
+        <img  class="img" src="img/VorPalac (2).jpg">
     <p>Воронцовський палац в Алупці і нині вражає відвідувачів пишнотою інтер’єрів і красою архітектури. Під час його будівництва був настільки майстерно використаний рельєф місцевості, що здається,
          ніби палац є продовженням навколишньої природи, зокрема, величної гори Ай-Петрі.<br>Свого часу літня резиденція генерал-губернатора Воронцова була не тільки місцем блискучих прийомів царів й
           іменитих гостей, але й центром культурного життя Південного узбережжя Криму.</p>
@@ -341,13 +353,13 @@
     <p>Саме тут 8 лютого 1945 було остаточно визначено кількість країн — учасниць установчої конференції Організації Об’єднаних Націй, час і місце її скликання.</p>
 <br>
 <br>
-<b align="left" id="k16" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/alupkinskyj-vorontsovskyj-palats/" target="_blank">7 Чудес України. Алупкінський (Воронцовський) палац</a></b> <h4 align="right"><a href="#k6" class="a2">Нагору</a></h4> 
+<b align="left" id="k16" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/alupkinskyj-vorontsovskyj-palats/" target="_blank">7 Чудес України. Алупкінський (Воронцовський) палац</a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4> 
     </div>
     <hr>
     <div>
         
-        <center><h1>Бахчисарайський (Ханський) палац</h1></center>
-        <img align="left" class="img" src="img/Backhchysarai (1).jpg" width="200px" height="150px"> 
+        <center><h2>Бахчисарайський (Ханський) палац</h2></center>
+        <img  class="img" src="img/Backhchysarai (1).jpg" > 
     <p>Збудований як родова резиденція династії Ґераїв – правителів Кримського ханату –  протягом двох із половиною століть Бахчисарайський Палац був центром політичного, духовного й культурного життя
          держави кримських татар…</p>
 
@@ -375,13 +387,13 @@
          башта, тривають роботи на родовому цвинтарі ханів.</p>
 <br>
 <br>
-<b align="left" id="k17" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/bahchysarajskyj-hanskyj-palats/" target="_blank">7 Чудес України. Бахчисарайський (Ханський) палац</a></b> <h4 align="right"><a href="#k7" class="a2">Нагору</a></h4> 
+<b align="left" id="k17" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/bahchysarajskyj-hanskyj-palats/" target="_blank">7 Чудес України. Бахчисарайський (Ханський) палац</a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4> 
 </div>
     <hr>
     <div>
        
-        <center><h1>Генуезька фортеця</h1></center>
-       <img align="left" class="img" src="img/Genusetska (2).jpg" width="200px" height="150px">
+        <center><h2>Генуезька фортеця</h2></center>
+       <img class="img" src="img/Genusetska (2).jpg" >
     <p>Судацьке укріплення як за історико-культурною значущістю, так і за масштабністю фортифікаційної системи є унікальною пам’яткою оборонної архітектури Таврії X-XVIII ст.</p>
 
 
@@ -400,8 +412,8 @@
               Фортечної гори, збереглася триярусна, квадратна в плані башта Астагвера (Портова), споруджена в 1386 р.</p>
 <br>
 <br>
-<b align="left" id="k18" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/henuezka-fortetsya/" target="_blank">7 Чудес України. Генуезька фортеця</a></b> <h4 align="right"><a href="#k8" class="a2">Нагору</a></h4> 
-<h4 align="right" id="podpis" ><b  >Arsenuk Ihor L-10C</b></h4>
+<b align="left" id="k18" class="a2">Джерело: <a href="https://7chudes.in.ua/nominaciyi/henuezka-fortetsya/" target="_blank">7 Чудес України. Генуезька фортеця</a></b> <h4 align="right"><a href="#k1" class="a2">Нагору</a></h4> 
+<h4 align="right" id="podpis" ><b> &#169;Виконав: Арсенюк Ігор Л-10В</b></h4>
 </div>
 </div>
 </body>
