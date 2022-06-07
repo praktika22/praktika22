@@ -9,27 +9,30 @@
 </head>
 <body>
   <div id="to_top">
-    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+    <a href="#top"><i style="color: #fff;" class="fa-solid fa-arrow-up"></i></a>
   </div>
   <header id="top" style="height: 150vh;">
     <div id="header-photo"></div>
     <div id="header">
-      <h1 style ="font-family: 'Lobster', cursive; padding-bottom: 25px; font-size: 5em; text-align: center;">Welcome to<br>Ukraine!</h1>
+      <h1 style ="font-family: 'Lobster', cursive; padding-bottom: 25px; font-size: 5em; text-align: center;">Welcome to Ukraine!</h1>
       <h2 class="about_main_text">Подорожуй разом з нами<br>чудесами України</h2>
-      <i style="margin-top: 5%; font-size: 5em;" class="fa-solid fa-arrow-down"></i>
+      <i style="margin-top: 5%; font-size: 5em; color: #fff;" class="fa-solid fa-arrow-down"></i>
     </div>
     <img id="image_stopwar" src="stopwar.png">
   </header>
   <div class="about_ukraine_block">
     <div class="text_block_ua">
-      <p class="text_ukraine_block">Спробуйте відчути ритм<br><span class="sp_1">вільної</span> та <span class="sp_2">прекрасної</span>,<br><span class="sp_3">незалежної</span> та <span class="sp_4">співучої</span>,<br><span class="sp_5">талановитої</span> та квітучої<br><span class="sp_6">України</span></p>
+      <p class="text_ukraine_block">Спробуйте відчути ритм<br><span class="sp">вільної</span> та <span class="sp_2">прекрасної</span>,<br><span class="sp_3">незалежної</span> та <span class="sp">співучої</span>,<br><span class="sp">талановитої</span> та квітучої<br><span class="sp_6">України</span></p>
       <div class="button_go_ua">
-        <img class="img_for_button" src="css/ua_flag.png">
-        <a href=#map><input class="button_go" type="button" value="Відвідайте Україну"></a>
+        <img class="img_for_button" src="css/ua_flag.png" style="z-index: -1; margin-bottom: -5%;">
+        <a href="#map"><input class="button_go" type="button" value="Відвідайте Україну"></a>
     </div>
     </div>
     <div class="img_block_ua">
-      <img class="main_img" src="css/main_block_img.png">
+      <picture>
+        <source class="main_img" srcset="css/main_block_img.png">
+        <img class="main_img">
+      </picture>
     </div>
   </div>
   <main id="map">
@@ -40,8 +43,8 @@
     <div style="display: flex; justify-content: space-around; flex-direction: row; padding-top: 1%;">
       <div>
         <h3 style="font-family: 'Montserrat'; font-style: normal;font-weight: 400; padding-bottom: 5%; font-size: 1.5em;">Слідкуй за нами</h3>
-        <a href="https://www.instagram.com/polit_kremen/" target="_blank" ><i style="color: black"class="fa-brands fa-instagram-square"></i></a>
-        <a href="https://www.youtube.com/channel/UCVTmJUToxOnTuGWMTTSig5A" target="_blank"><i style="color: black" class="fa-brands fa-youtube-square"></i></a>
+        <a href="https://www.instagram.com/polit_kremen/" target="_blank" ><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://www.youtube.com/channel/UCVTmJUToxOnTuGWMTTSig5A" target="_blank"><i class="fa-brands fa-youtube-square"></i></a>
       </div>
       <div style="display: flex; justify-content: center; flex-direction: column;">
         <h3 style="font-family: 'Montserrat'; font-style: normal;padding-bottom: 5%; font-weight: 400; font-size: 1.5em;">Благодійність</h3>
@@ -62,6 +65,7 @@
       margin-left: 1%;
       font-size: 4em;
       transition: .5s;
+      color: black;
     }
 
     i:hover {

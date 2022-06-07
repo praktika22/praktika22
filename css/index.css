@@ -40,77 +40,87 @@ a {text-decoration: none; color: #fff}
 body {
     background-color: var(--white);
     height: 100vh;
-/*     font-family: 'Rubik', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
-.about_main_text{
+
+.about_main_text {
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 1.5em;
     text-align: center;
     color: #FFFFFF;
 }
-.about_ukraine_block{
+
+.about_ukraine_block {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     transform: translateY(-20vh);
 }
-.text_ukraine_block{
+
+.text_ukraine_block {
     width: 110%;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 2em;
     color: #000000;
     padding-left: 80px;
     padding-top: 200px;
 }
-.sp_1{
+
+.sp {
     text-decoration-line: underline;
 }
-.sp_2{
+
+.sp_2 {
     text-transform: uppercase;
 }
-.sp_3{
+
+.sp_3 {
     font-style: italic;
 }
-.sp_4{
-    text-decoration-line: underline;
-}
-.sp_5{
-    text-decoration-line: underline;
-}
-.sp_6{
+
+.sp_6 {
     font-weight: 700;
 }
-.button_go_ua{
+
+.button_go_ua {
     padding-left: 80px;
     padding-top: 200px;
 }
-.button_go{
+
+.button_go {
     padding: 30px 70px;
-    background: #FAD00C;
+    background: var(--yellow);
     border-radius: 45px;
     border: none;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    color: #000000;
+    font-size: 1.5em;
+    color: var(--black);
+    transition: .5s;
 }
-.img_for_button{
+
+.button_go:hover {
+    color: var(--yellow);
+    background-color: var(--blue);
 }
-.main_img{
+
+.main_img {
     float: right;
+    width: 60vw;
+    margin-right: 1%;
 }
-.choise_obl{
-    font-family: 'Montserrat';
+
+.choise_obl {
     font-style: normal;
     font-weight: 300;
-    font-size: 38px;
-    text-align:center;
+    font-size: 3em;
+    text-align: center;
 }
+
 #header-photo {
     filter: brightness(70%) saturate(100%);
     -webkit-filter: brightness(70%) saturate(100%);
@@ -203,7 +213,8 @@ footer {
     color: rgb(0, 0, 0);
     background-color: #F9D00D;
 }
-footer{
+
+footer {
     margin-top:50px;
     background-image: url('design.png');
     background-size: 100%;
@@ -232,12 +243,15 @@ footer{
     color: var(--white);
 
 }
+
 .fa-brands fa-instagram-square:hover{
     color: white;
 }
+
 .fa-brands fa-youtube-square:hover{
     color: white;
 }
+
 @media only screen and (max-width: 1630px) {
     .button_go_fond {
         font-size: 1em;
