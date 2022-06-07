@@ -232,12 +232,6 @@ footer{
     color: var(--white);
 
 }
-.fa-brands fa-instagram-square:hover{
-    color: white;
-}
-.fa-brands fa-youtube-square:hover{
-    color: white;
-}
 @media only screen and (max-width: 1630px) {
     .button_go_fond {
         font-size: 1em;
