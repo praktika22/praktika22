@@ -104,7 +104,7 @@ body {
 }
 
 .button_go:hover {
-    color: var(--yellow);
+    color: #F9D00D;;
     background-color: var(--blue);
 }
 
