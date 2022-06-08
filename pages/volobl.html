@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Волинська область</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 .leftimg {
     float:left;
     margin: 7px 7px 7px 0; } 
@@ -17,27 +18,21 @@ p
        text-align: justify;
        margin-left:40px;
        margin-right:40px;}
-
+hr { width:95% ;}
 p:first-letter{
     font-size: 150%;
     color: rgb(132, 78, 78);
 }
 
-.scale {
-    transition: 0.5s; 
-   }
-.scale:hover { transform: scale(1.4);
-   }
-
 h2 {color: rgb(132, 78, 78);
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family:'Comfortaa';}
+    font-family: 'Comfortaa', cursive;}
 
 h1 {color: rgb(132, 78, 78);
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family:'Comfortaa';}
+    font-family: 'Comfortaa', cursive;}
 
 dt 
    {color: rgb(128, 59, 59);
@@ -60,26 +55,47 @@ h4{
     right: 60px;}
 
 footer{
-    margin-left:40px;}
-
-img {
-    height:150 ;
-    border: 3px solid grey;
-    border-radius: 20px;
-    box-shadow: 0 0 0 3px white ;}
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(132, 78, 78)}
 .leftimg {
     color:white;
 margin-left: 40px;}
 
 .top {text-align: center;}
+
+img {
+    margin-left: 30px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 0 3px white ;}
+.prapor{width:130 ;
+    height: 100;
+    text-align: center ;}
+
+.photo { 
+    box-sizing: border-box;
+    margin-left: 0px 10px 10px 0px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px white ;
+    float: left;}
+.photo:hover{
+    height:600px ;
+    width: 800px;
+    transition:all 2s ease 0s ;}
+.photo:not(:hover){
+    height: 150px;
+    transition:all 2s ease 0s;
+}
+
 </style>
 </head>
 <body>
-    <h1 id = "top"> <a href = "index.html"> <img src = "img/7miracles.png" width="100" height="100" class ='embimg'> </a> Проєкт "7 чудес України"</h1>
+    <h1 id = "top"> <a href = "../index.html"> <img src = "img/7miracles.png" width="140" height="100" class ='embimg'> </a> Проєкт "7 чудес України"</h1>
     <h2 > Волинська область</h2>
-    <p class="top"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Coat_of_Arms_of_Volyn_Oblast.svg/135px-Coat_of_Arms_of_Volyn_Oblast.svg.png" width="60" src="60">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Volyn_Oblast.svg/240px-Flag_of_Volyn_Oblast.svg.png"  width="110">
-    </p>
+    <p class="top"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Coat_of_Arms_of_Volyn_Oblast.svg/135px-Coat_of_Arms_of_Volyn_Oblast.svg.png" width="100" height="130">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Volyn_Oblast.svg/240px-Flag_of_Volyn_Oblast.svg.png" height="130" ></p>
 
 <dl>
     <dt><strong> 7 природних чудес </strong></dt>
@@ -93,7 +109,7 @@ margin-left: 40px;}
 </dl>
 <hr>
 <h2 align="center" id="t1"> Озеро Світязь</h2>
-<p align="left" > <img src="https://7chudes.in.ua/wp-content/uploads/2010/09/IMG_1727-637x480.jpg" alt="" class="scale" width="200" src="150" class="leftimg">
+<img class="photo" src="https://7chudes.in.ua/wp-content/uploads/2010/09/IMG_1727-637x480.jpg"  width="200" height="150">
 <p>Озеро Світязь – найбільше та найглибше озеро природного походження в Україні. Світязь чимось схожий на море, у вітряну погоду хвилі тут досягають півтораметрової висоти…</p>
 <p>Найкраща природна туристична прикраса Волині – озеро Світязь, що розташоване недалеко від смт Шацьк, центру відновленого у 1993 році району. Входить до складу Шацьких озер, групи з-понад 30 озер у північно-західній частині Любомльського району Волинської області, у межиріччі Прип’яті й Західного Бугу.</p>
 <p>Площа Світязя становить 2622 га, довжина – 9225 м, ширина – 4000 м, максимальна глибина – 58,4 м, середня глибина – 6,9 м.</p>
@@ -106,7 +122,7 @@ margin-left: 40px;}
 <hr>
 
 <h2 align="center" id="t2"> Луцький Верхній замок </h2>
-<p align="left" > <img src="http://ridna.ua/wp-content/uploads/2011/12/lutsk3.png" alt="" class="scale" width="200" src="150" class="leftimg">
+ <img class="photo" src="http://ridna.ua/wp-content/uploads/2011/12/lutsk3.png"  width="200" height="150">
 <p>Луцький Верхній замок є центральною спорудою Луцького державного історико-культурного заповідника «Старе місто».</p>
 <p>Зведений останнім великим князем Галицько-Волинського князівства Дмитром Любартом у 1340–1383 рр. замок слугував його резиденцією. З часом замок став улюбленим місцем перебування великого князя Литви Вітовта. Саме тут взимку 1429 р. Вітовт приймав на з’їзді дипломатичні посольства і монархів країн Центральної та Східної Європи, які вирішували найважливіші проблеми міждержавних відносин.</p>
 <p>Протягом століть Луцький Верхній замок залишався могутньою фортецею, адміністративною, політичною і духовною столицею краю. У ньому діяв крайовий уряд, збиралися сейми і станові суди волинської шляхти.</p>
@@ -118,7 +134,7 @@ margin-left: 40px;}
 <hr>
 
 <h2 align="center" id="t3"> Олицький замок </h2>
-<p align="left" > <img src="https://dorogovkaz.com/images/olykskij_zamok_photo.jpg" alt="" class="scale" width="200" src="150" class="leftimg">
+ <img class="photo" src="https://dorogovkaz.com/images/olykskij_zamok_photo.jpg"  width="200" height="150">
 <p>Олицький замок - головна визначна пам'ятка селища Олика, що на Волині.</p>
 <p>Олицький замок - це володіння старовинного і могутнього роду литовських князів Радзивіллів. Радзивіллам належало безліч земель у Литві і на території нинішньої Республіки Білорусь. Радзивілли отримали Олику від імператора Карла V в 1547 році і володіли нею аж до 1939 року. Вони ввели тут Магдебурзьке право. Олика стає їхнім майоратом - неподільним маєтком, успадкувати який могли тільки первістки чоловічої статі. Ян Радзивілл Чорний у 1558 році зводить в Олиці замок. Це була одна з перших на території України бастіонних споруд. Олицький замок виконував оборонну функцію. Ніхто не міг взяти його штурмом - ні татари, ні шведи. Його могутні стіни витримали безліч облог протягом тривалого періоду. Близько 200 гармат забезпечували обороноздатність Олицького замку.</p>
 <p>Фортеця в Олиці постійно реконструювалася й удосконалювалася. Багато чого в будівництві родового гнізда зробив Альбрехт Станіслав Радзивілл. Замкові корпуси були збудовані в квадратний двір. Кутові бастіони посилювали захист фортеці.</p>
@@ -129,7 +145,7 @@ margin-left: 40px;}
 <hr>
 
     <h2 align="center" id="t4"> Володимир-Волинський </h2>
-<p align="left" > <img src="https://7chudes.in.ua/wp-content/uploads/2016/05/8d3a899969511ad271bb1c83eb0bad84_01.jpg" alt="" class="scale" width="200" src="150" class="leftimg">
+<img class="photo" src="https://7chudes.in.ua/wp-content/uploads/2016/05/8d3a899969511ad271bb1c83eb0bad84_01.jpg" alt="" class="scale" width="200" height="150" >
 <p>Володимир-Волинський як одне із найстаріших міст України має чим пишатись. Славетний сивочолий Володимир гордо здіймається над волинським градом, нагадуючи про свою значимість. Місто і нині звуть княжим, ще з тих давніх часів, коли були городища, величні церкви і дзвінкоголосі дзвони.</p>
 <p>Перша згадка про Володимир-Волинський зафіксована на сторінках «Повісті минулих літ» у 988 році. Тоді київський князь Володимир Святославич передав місто в удільне володіння одному зі своїх синів, Всеволоду. Місто назвали на честь князя київського Володимира Великого.</p>
 <p>Давня назва міста — Ладомир, а Володимир – називалось до російської окупації наприкінці XVIII ст. Нова влада перейменувала місто на Володимир-Волинський, щоб відрізнити його від російського Владимира на Клязьмі. За умовами Ризького мирного договору 1921 року місто увійшло до складу Польщі. Нова влада змінила назву міста, яке з 3 червня 1922 до вересня 1939 називалось Włodzimierz (Влодзімєж, Володимир). Більшовицька влада у вересні 1939 року назвала місто Володимир-Волинськ (пол. Włodzimierz Wołyński), а у 1944 році після вигнання гітлерівців повернула назву російського періоду — Володимир-Волинський.</p>
@@ -139,7 +155,7 @@ margin-left: 40px;}
 <p>Філоненко Людомир Павлович — український музикознавець, педагог-піаніст, доктор філософії.</p>
 <h4 class="leftimg">Джерело:<a href="https://7chudes.in.ua/nominaciyi/volodymyr-volynskyj-volynska-obl/" >7 чудес. Володимир-Волинський </a> </h4>
 <a href="#"><h5 align="right" >Нагору</h5> </a>
-<footer>Сторінку розробила &#169; Глушко Дар'я </footer>
+<footer>Сторінку розробила &#169; Дар'я ГЛУШКО </footer>
 
 </body>
 </html>

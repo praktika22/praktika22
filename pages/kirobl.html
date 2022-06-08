@@ -7,6 +7,8 @@
     <title>Кіровоградська_область</title>
 </head>
 <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+        
     .leftimg {
         float:left; 
         margin: 7px 7px 7px 0; 
@@ -16,12 +18,14 @@
         color: #662E1C;
         text-align: center;
         text-shadow: 2px 2px 5px white;
+        font-family: 'Comfortaa', cursive;
 }
 
 h1 {
     color: #662E1C;
     text-align: center;
     text-shadow: 2px 2px 5px white;
+    font-family: 'Comfortaa', cursive;
 }
 p{
            text-align: justify;
@@ -41,24 +45,87 @@ p::first-letter {
             border-radius: 20px;
             box-shadow: 0 0 10px white;
 }
+
+.logo{
+            height: 74px;
+            margin-right: 20px;
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+}
+.title-section-logo,.logo-text{
+            text-shadow: 2px 2px 5px #fff;
+            color: #000000;
+            font-family: 'Comfortaa', cursive;
+            
+            
+        }
+        .title-section-logo{
+            text-align: center;
+        }
+.gerb{
+        height: 150px;
+        margin: 0px 20px;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+         
+}
+.flag{
+        height: 130px;
+        margin: 0px 20px;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+
+}
+.copyright::before{
+            content: '\00A9';
+            font-weight: bold;
+        }
+.simple-image{
+    box-sizing: border-box;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 5px #fff;
+    height: 150px;
+    border-radius: 20px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+.simple-image:hover{
+            height: 600px;
+            width: 800px;
+            transition: all 0.5s ease 0s;
+            
+}
+
+.simple-image:not(:hover){
+            height: 150px;
+            transition: all 0.5s ease 0s;
+            
+}
+    
 </style>
 <body>
+    <a href="../index.html">
+        <img class="logo" src="img/7miracles.png" alt="logo">
+    </a>
     <h1 style="text-align:center; color:#662E1C"> Проєкт "7 чудес України" </h1>
     <h2 style="text-align:center">Кіровоградська область</h2>
     <p style="text-align:center">
-    <img src="http://www.heraldicum.ru/ukraine/images/kirovgrd.gif" width="110" height="150">
-    <img src="https://images.prom.ua/2169293016_prapor-kirovogradskoyi-oblasti.jpg" width="150" height="100">
+    <img class="gerb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Coat_of_Arms_of_Kirovohrad_Oblast.svg/1200px-Coat_of_Arms_of_Kirovohrad_Oblast.svg.png" width="110" height="120">
+    <img class="flag" src="https://images.prom.ua/2169293016_prapor-kirovogradskoyi-oblasti.jpg" width="150" height="100">
     </p>  
 <dl>
     <dt style="color:#662E1C">7 замків, фортець, палаців:</dt>
- <dd><a href="#text1">Фортеця Святої Єлисавети</a></dd>
+ <dd><a href="#text1" style="color:#000000" >Фортеця Святої Єлисавети</a></dd>
  <dt style="color:#662E1C">Музеї:</dt>
- <dd><a href="#text2">Заповідник-музей І.К.Тобілевича</a></dd>
- <dd><a href="#text3">Кіровоградський обласний художній музей</a></dd>
+ <dd><a href="#text2" style="color:#000000">Заповідник-музей І.К.Тобілевича</a></dd>
+ <dd><a href="#text3" style="color:#000000">Кіровоградський обласний художній музей</a></dd>
  </dl>
  <hr>
  <h2 style="text-align:center" id="text1">Фортеця Святої Єлисавети</h2>
- <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCH8hVOFvrbVbrBRZsRNK48L9CKsHfSXxIbg&usqp=CAU" class="leftimg">
+ <p><img class="simple-image" src="https://upload.wikimedia.org/wikipedia/commons/2/22/%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%97_%D0%84%D0%BB%D0%B8%D1%81%D0%B0%D0%B2%D0%B5%D1%82%D0%B8._%D0%9C%D1%96%D1%81%D1%82%D0%BE_%D0%9A%D1%80%D0%BE%D0%BF%D0%B8%D0%B2%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9.jpg" class="leftimg">
     <p>Фортеця Єлисавети є унікальною фортифікаційною пам'яткою XVIII ст. Сучасне використання фортечного комплексу не відповідає його історико-культурному значенню.</p>
     <p>Фортецю внесено до переліку пам'яток культурної спадщини України.</p>
     <p>Контури фортеці лежать в основі герба Кропивницького.</p>
@@ -70,11 +137,11 @@ p::first-letter {
 
 Повне скасування статусу фортеці Єлисавети здійснилося 15 березня 1805 року. Фортечний гарнізон був розформований, але в казармах ще багато років розміщався нестройовий батальйон (три інвалідні роти).
 </p>
-<p>Джерело: <a href="https://uk.wikipedia.org/wiki/Фортеця_cвятої_Єлисавети">Фортеця Святої Єлисавети</a></p>
-<a href="#top">Нагору</a>
+<p>Джерело: <a style="color:#000000" href="https://uk.wikipedia.org/wiki/Фортеця_cвятої_Єлисавети">Фортеця Святої Єлисавети</a></p>
+<a href="#top" style="color:#662E1C" >Нагору</a>
 <hr>
 <h2 style="text-align:center" id="text2">Заповідник-музей І.К.Тобілевича</h2>
-<p><img src="https://agov.com.ua/images/location_images/220210505212839.jpg" class="leftimg" width="200" height="150">
+<p><img class="simple-image" src="https://agov.com.ua/images/location_images/220210505212839.jpg" class="leftimg" width="200" height="150">
     <p>Державний заповідник-музей І. К. Карпенка-Карого (Тобілевича). Є філією Кіровоградського обласного краєзнавчого музею. </p>
     <p> </p>
     <p>Створений на території садиби, що належала визначному драматургу, театральному діячеві кінця XIX — початку XX ст. Іванові Карпенку-Карому (Тобілевичу).
@@ -97,11 +164,11 @@ p::first-letter {
     <p> </p>
     <p>Щорічно «Хутір Надія» відвідують понад 4 тисячі гостей з різних регіонів України та зарубіжжя.</p>
     </p>
-    <p>Джерело: <a href="https://uk.wikipedia.org/wiki/Хутір_Надія">Заповідник-музей І.К.Тобілевича</a></p>
-    <a href="#top">Нагору</a>
+    <p>Джерело: <a style="color:#000000" href="https://uk.wikipedia.org/wiki/Хутір_Надія">Заповідник-музей І.К.Тобілевича</a></p>
+    <a href="#top" style="color:#662E1C" style="text-align:right">Нагору</a>
 <hr>
 <h2 style="text-align:center" id="text3">Кіровоградський обласний художній музей</h2>
-<p><img src="https://lib.kr.ua/wp-content/uploads/2017/11/975511309.jpg" class="leftimg" width="200" height="150">
+<p><img class="simple-image" src="https://lib.kr.ua/wp-content/uploads/2017/11/975511309.jpg" class="leftimg" width="200" height="150">
    <p>Кіровоградський обласний художній музей розташований в історичній будівлі (колишній Пасаж) у само́му середмісті Кропивницького.</p>
    <p>Будинок, у якому міститься музей (від 1991 року) був побудований на рубежі XIX—ХХ століть на замовлення купця І. Шполянського і являє один з яскравих прикладів початкового періоду стилю модерн. Його інтер'єр має високу художню цінність.
 </p>
@@ -125,10 +192,12 @@ p::first-letter {
     <p>Протягом 1998—2014 років співробітниками закладу здійснено науково-дослідні та реставраційні роботи понад 140 унікальних музейних експонатів. Серед них — твір олійного живопису «Сосновий ліс» авторів І. Шишкіна, А. Шильдера, Ю. Клевера, твір олійного живопису під назвою «Святогорський монастир» О. Осмьоркіна, картина «Юродивий» П. Свєдомського, врятовані унікальні ікони та інші твори образотворчого та декоративно-ужиткового мистецтва. </p>
 </p>
 
-<p>Джерело: <a href="https://uk.wikipedia.org/wiki/Кіровоградський_обласний_художній_музей">Вікіпедія.Кіровоградський обласний художній музей</a></p>
+<p>Джерело: <a style="color:#000000" href="https://uk.wikipedia.org/wiki/Кіровоградський_обласний_художній_музей">Вікіпедія.Кіровоградський обласний художній музей</a></p>
 <hr>
-Сторінку розробила: Марія Ткаченко.
-<br><a href="#top">Нагору</a>
+Сторінку розробила:
+<span class="copyright"> Марія ТКАЧЕНКО </span>
+<br><a href="#top" style="color:#662E1C" style="text-align:right">Нагору</a>
+
 </body>
 </html>
  

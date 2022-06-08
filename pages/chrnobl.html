@@ -54,7 +54,7 @@
          
         }
         .flag{
-            height: 130px;
+            height: 135px;
             margin: 0px 20px;
 
         }
@@ -73,47 +73,34 @@
             color: #00698B;
             font-weight: bold ;
         }
-        dl dd a{
+        dl dd a, dl dd a:active, dl dd a:link, dl dd a:visited{
             text-decoration: none;
             color: black;
             font-weight: bold;
         }
-        dl dd a:hover{
-            letter-spacing: 2px;
-            opacity: 0.6;
-            
-            transition: all 1s ease 0s;
-        }
-        dl dd a:not(:hover){
-            transition: all 1s ease 0s;
-        }
-        dl dd a:active{
-            letter-spacing: 1px;
-            transition: all 0.5s ease 0s;
-        }
+
+        
         /* end */
         /* second section */
         .simple-image{
             box-sizing: border-box;
             border: 3px solid gray;
             box-shadow: 2px 2px 5px #fff;
-            height: 150px;
+            width: 200px;
             border-radius: 20px;
             margin: 0px 10px 10px 0px;
             float: left;
         }
 
         .simple-image:hover{
-            height: 600px;
-            transition: all 3s ease 0s;
+            width: 800px;
+            transition: all 0.5s ease 0s;
             
         }
 
         .simple-image:not(:hover){
-           
-            height: 150px;
-            transition: all 2s ease 0s;
-            
+            width: 200px;
+            transition: all 1.5s ease 0s;
         }
     
         .post-nav{
@@ -127,12 +114,12 @@
             color: #fff;
             font-weight: bold;
         }
-        .sourse a{
+        .sourse a, .sourse a:visited,.sourse a:link, .sourse a:active{
             color: #000;
             text-decoration: none;
             font-weight: bold;
         }
-        .to-top-btn{
+        .to-top-btn, .to-top-btn:visited,.to-top-btn:link,.to-top-btn:active{
             color: #fff;
             text-decoration: none;
         }
@@ -141,6 +128,10 @@
         .footer{
             margin: 3% 0%;
             font-weight: bold;
+            text-align: center;
+            font-family: 'Comfortaa', cursive;
+
+
         }
         p::first-letter{
             font-size: 150%;
@@ -159,6 +150,7 @@
         .list-with-vodospad li::before{
             content: '\2714';
         }
+        
     </style>
 </head>
 <body>
@@ -203,7 +195,7 @@
             <h2 class="title-section-logo">Буковинські водоспади</h2>
             <img class="simple-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Середній_Гук_-_Буковинські_водоспади.jpg/2560px-Середній_Гук_-_Буковинські_водоспади.jpg" alt="vodospad">
             <p>
-                Блискучий ланцюжок водоспадів вздовж течії річки Смугарів, завороженої величністю Карпат, схожа на казкову картину видатного майстра. Екскурсія на Буковинські водоспади обов’язково запам’ятається мінливістю неповторної краси: крізь химерні кам’яно-лісові схили біжать часом розмірено, а іноді стрімко спадають води, змушуючи благоговіти перед вічною і нездоланною силою природи. Загальна протяжність каскадів доходить до двох кілометрів, тому з найвищих водоспадів утворений заказник з ексклюзивним ландшафтним дизайном. Він офіційно охороняється державою.            </p>
+                Блискучий ланцюжок водоспадів вздовж течії річки Смугарів, завороженої величністю Карпат, схожа на казкову картину видатного майстра. Екскурсія на Буковинські водоспади обов’язково запам’ятається мінливістю неповторної краси: крізь химерні кам’яно-лісові схили біжать часом розмірено, а іноді стрімко спадають води, змушуючи благоговіти перед вічною і нездоланною силою природи. Загальна протяжність каскадів доходить до двох кілометрів, тому з найвищих водоспадів утворений заказник з ексклюзивним ландшафтним дизайном. Він офіційно охороняється державою.</p>
             <p>Більшу частину року вся ця чудова сімка схожа на невеликі струмочки, але навесні, коли ріки щедро наповнюється талими водами снігів і рясними дощами, водоспади перетворюються на справжніх володарів долини, котрі, як  бурхливі потоки, здатні змести все на своєму шляху.</p>
             <p>Площа природоохоронної території 38,5 га. Перебуває у віданні Розтоківської сільської ради.</p>
             <p>Русло потоку Смугарів (права притока Черемошу) та більшість його лівих приток перетинають виходи масивних пісковиків, вапняків, сланців — вони формують низку водоспадів. На відстані 2 км — сім водоспадів різної потужності й висоти: від 3 м до понад 18 м, що є унікальним явищем для Українських Карпат.</p>
@@ -331,7 +323,7 @@
             <hr>
         </div>
         <div class="footer">
-            Сторінку розробив: <span class="copyright"> Супрун Дмитро</span> 
+            Сторінку розробив: <span class="copyright"> Дмитро СУПРУН</span> 
         </div>
     </div>
 </body>
